@@ -58,8 +58,9 @@ console.log(persone);
 let remove = persone.pop();
 console.log(persone);
 
-let takeFirst = persone.shift();
+let takeFirst = persone.shift("");
 console.log(takeFirst);
+console.log(persone)
 
-let takeLast = persone.unshift("Brunilde");
-console.log(takeLast);
+let addFirst = persone.unshift("Brunilde");
+console.log(persone);
